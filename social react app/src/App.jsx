@@ -1,4 +1,5 @@
 import Pages from "./components/Pages/Pages";
+// import pages 
 
 export default function App() {
   return (
