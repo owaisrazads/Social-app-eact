@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import leftSide from '../LeftSideBar/leftSide'
+import LeftSide from '../LeftSide/leftSide'
 
 const Home = () => {
   return (
@@ -9,8 +9,8 @@ const Home = () => {
       <Navbar/>
       </div>
       <div className='flex bg-gray-400'>
-        <div>
-        <leftSide/>
+        <div className='flex-auto w-[20%] fixed top-12'>
+        <LeftSide/>
         </div>
       </div>
     </div>
